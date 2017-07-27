@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard1.6</TargetFramework>
+        <Authors>Nikolay Zahariev</Authors>
+        <Company>Zahasoft</Company>
+        <Product>Zahasoft Skele</Product>
+        <Description>.NET Core library</Description>
+        <Copyright>Nikolay Zahariev</Copyright>
+        <PackageProjectUrl>https://github.com/zahasoft/skele</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/zahasoft/skele</RepositoryUrl>
+        <PackageLicenseUrl>http://www.apache.org/licenses/LICENSE-2.0</PackageLicenseUrl>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+        <OutputPath>..\..\output\</OutputPath>
+        <DocumentationFile>..\..\output\netstandard1.6\Zahasoft.Skele.Library.xml</DocumentationFile>
+        <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+        <TreatSpecificWarningsAsErrors />
+        <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <AdditionalFiles Include="stylecop.json" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="StyleCop.Analyzers" Version="1.0.2" />
+      <PackageReference Include="Zahasoft.Core" Version="2.1.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Include=".template.config\template.json" />
+    </ItemGroup>
+</Project>

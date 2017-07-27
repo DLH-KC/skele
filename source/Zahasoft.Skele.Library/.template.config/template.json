@@ -1,0 +1,12 @@
+﻿{
+    "author": "Nikolay Zahariev <zahasoft.com>",
+    "classifications": [ "Zahasoft/Library" ],
+    "identity": "Zahasoft.Skele.Library",
+    "name": "Zahasoft Library",
+    "preferNameDirectory": true,
+    "shortName": "zslib",
+    "sourceName": "Zahasoft.Skele.Library",
+    "tags": {
+        "language": "C#"
+    }
+}
