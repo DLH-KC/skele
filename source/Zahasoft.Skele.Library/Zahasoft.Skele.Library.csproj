@@ -26,7 +26,7 @@
 
     <ItemGroup>
       <PackageReference Include="StyleCop.Analyzers" Version="1.0.2" />
-      <PackageReference Include="Zahasoft.Core" Version="2.1.3" />
+      <PackageReference Include="Zahasoft.Core" Version="2.1.4" />
     </ItemGroup>
 
     <ItemGroup>
