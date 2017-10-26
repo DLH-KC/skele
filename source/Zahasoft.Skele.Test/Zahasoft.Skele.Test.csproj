@@ -1,23 +1,26 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>netstandard1.6</TargetFramework>
+        <TargetFramework>netstandard2.0</TargetFramework>
         <Authors>Nikolay Zahariev</Authors>
         <Company>Zahasoft</Company>
-        <Product>Zahasoft Skele</Product>
-        <Description>.NET Core unit test project template</Description>
+        <Product>Zahasoft Skele Test</Product>
+        <Description>Dotnet core unit test project template</Description>
         <Copyright>Nikolay Zahariev</Copyright>
         <PackageProjectUrl>https://github.com/zahasoft/skele</PackageProjectUrl>
         <RepositoryUrl>https://github.com/zahasoft/skele</RepositoryUrl>
         <PackageLicenseUrl>http://www.apache.org/licenses/LICENSE-2.0</PackageLicenseUrl>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     </PropertyGroup>
 
     <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
         <OutputPath>..\..\output\</OutputPath>
-        <DocumentationFile>..\..\output\netstandard1.6\Zahasoft.Skele.Test.xml</DocumentationFile>
-        <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+        <DocumentationFile></DocumentationFile>
+        <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
         <TreatSpecificWarningsAsErrors />
-        <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+        <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+        <NoWarn>NU1603;1591;1701;1702;1705;SA1600;SA1101;SA1309;SA1652;SA1413</NoWarn>
+        <WarningsAsErrors />
     </PropertyGroup>
 
     <ItemGroup>
@@ -26,13 +29,13 @@
 
     <ItemGroup>
       <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.3.0" />
-      <PackageReference Include="NSubstitute" Version="2.0.3" />
+      <PackageReference Include="NSubstitute" Version="3.0.1" />
       <PackageReference Include="Shouldly" Version="2.8.3" />
       <PackageReference Include="StyleCop.Analyzers" Version="1.0.2" />
-      <PackageReference Include="xunit" Version="2.2.0" />
-      <PackageReference Include="xunit.runner.console" Version="2.2.0" />
-      <PackageReference Include="xunit.runner.visualstudio" Version="2.2.0" />
-      <PackageReference Include="Zahasoft.Core" Version="2.1.4" />
+      <PackageReference Include="xunit" Version="2.3.0" />
+      <PackageReference Include="xunit.runner.console" Version="2.3.0" />
+      <PackageReference Include="xunit.runner.visualstudio" Version="2.3.0" />
+      <PackageReference Include="Zahasoft.Core" Version="3.0.0" />
     </ItemGroup>
 
     <ItemGroup>

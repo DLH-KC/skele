@@ -4,7 +4,7 @@
     "identity": "Zahasoft.Skele.Library",
     "name": "Zahasoft Library",
     "preferNameDirectory": true,
-    "shortName": "zslib",
+    "shortName": "zs.library",
     "sourceName": "Zahasoft.Skele.Library",
     "tags": {
         "language": "C#"

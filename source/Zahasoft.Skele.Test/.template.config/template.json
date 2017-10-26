@@ -4,7 +4,7 @@
     "identity": "Zahasoft.Skele.Test",
     "name": "Zahasoft Test",
     "preferNameDirectory": true,
-    "shortName": "zstest",
+    "shortName": "zs.test",
     "sourceName": "Zahasoft.Skele.Test",
     "tags": {
         "language": "C#"
