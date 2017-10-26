@@ -5,7 +5,9 @@
         <Authors>Nikolay Zahariev</Authors>
         <Company>Zahasoft</Company>
         <Product>Zahasoft Skele Library</Product>
-        <Description>Dotnet core library project template</Description>
+        <Description>.NET Standard library project template
+
+Install with command dotnet new -i "Zahasoft.Skele.Library" or dotnet new -i "Zahasoft.Skele::*" for all  my templates.</Description>
         <Copyright>Nikolay Zahariev</Copyright>
         <PackageProjectUrl>https://github.com/zahasoft/skele</PackageProjectUrl>
         <RepositoryUrl>https://github.com/zahasoft/skele</RepositoryUrl>
