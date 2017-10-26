@@ -7,7 +7,4 @@ skele [![Build](https://img.shields.io/appveyor/ci/zahasoft/skele/master.svg?sty
 Nuget packages:
 * [Zahasoft.Skele.Library](https://www.nuget.org/packages/Zahasoft.Skele.Library)
 [![Version](https://img.shields.io/nuget/vpre/zahasoft.skele.library.svg?style=flat-square)](https://www.nuget.org/packages/Zahasoft.Skele.Library)
-[![Downloads](https://img.shields.io/nuget/dt/zahasoft.skele.library.svg?style=flat-square)](https://www.nuget.org/packages/Zahasoft.Skele.Library) 
-* [Zahasoft.Skele.Test](https://www.nuget.org/packages/Zahasoft.Skele.Test)
-[![Version](https://img.shields.io/nuget/vpre/zahasoft.skele.test.svg?style=flat-square)](https://www.nuget.org/packages/Zahasoft.Skele.Test)
-[![Downloads](https://img.shields.io/nuget/dt/zahasoft.skele.test.svg?style=flat-square)](https://www.nuget.org/packages/Zahasoft.Skele.Test) 
+[![Downloads](https://img.shields.io/nuget/dt/zahasoft.skele.library.svg?style=flat-square)](https://www.nuget.org/packages/Zahasoft.Skele.Library)
