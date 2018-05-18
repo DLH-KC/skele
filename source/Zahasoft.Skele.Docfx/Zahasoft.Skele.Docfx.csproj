@@ -4,33 +4,31 @@
         <TargetFramework>netstandard2.0</TargetFramework>
         <Authors>Nikolay Zahariev</Authors>
         <Company>Zahasoft</Company>
-        <Product>Zahasoft Skele Library</Product>
-        <Description>.NET Standard library project template
+        <Product>Zahasoft Skele Docfx</Product>
+        <Description>.NET Standard documentation project template
 
-Install with command dotnet new -i "Zahasoft.Skele.Library" or dotnet new -i "Zahasoft.Skele::*" for all  my templates.</Description>
+Install with command dotnet new -i "Zahasoft.Skele.Docfx" or dotnet new -i "Zahasoft.Skele::*" for all  my templates.</Description>
         <Copyright>Nikolay Zahariev</Copyright>
         <PackageProjectUrl>https://github.com/zahasoft/skele</PackageProjectUrl>
         <RepositoryUrl>https://github.com/zahasoft/skele</RepositoryUrl>
         <PackageLicenseUrl>http://www.apache.org/licenses/LICENSE-2.0</PackageLicenseUrl>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <Version>1.1.0</Version>
     </PropertyGroup>
 
     <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
         <OutputPath>..\..\output\</OutputPath>
-        <DocumentationFile>..\..\output\netstandard2.0\Zahasoft.Skele.Library.xml</DocumentationFile>
         <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
         <TreatSpecificWarningsAsErrors />
         <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+        <NoWarn />
         <WarningsAsErrors />
-        <NoWarn>1591;1701;1702;1705;SA1101;SA1309;SA1413</NoWarn>
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="StyleCop.Analyzers" Version="1.0.2" />
+      <None Include=".template.config\template.json" />
     </ItemGroup>
 
     <ItemGroup>
-      <None Include=".template.config\template.json" />
+      <PackageReference Include="docfx.console" Version="2.35.4" />
     </ItemGroup>
 </Project>

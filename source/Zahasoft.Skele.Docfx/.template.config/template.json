@@ -1,0 +1,12 @@
+﻿{
+  "author": "Nikolay Zahariev <zahasoft.com>",
+  "classifications": [ "Zahasoft/Docfx" ],
+  "identity": "Zahasoft.Skele.Docfx",
+  "name": "Zahasoft Docfx",
+  "preferNameDirectory": true,
+  "shortName": "zahasoft.docfx",
+  "sourceName": "Zahasoft.Skele.Docfx",
+  "tags": {
+    "language": "C#"
+  }
+}

@@ -1,0 +1,12 @@
+﻿{
+  "author": "Nikolay Zahariev <zahasoft.com>",
+  "classifications": [ "Zahasoft/UnitTest" ],
+  "identity": "Zahasoft.Skele.UnitTest",
+  "name": "Zahasoft UnitTest",
+  "preferNameDirectory": true,
+  "shortName": "zahasoft.unittest",
+  "sourceName": "Zahasoft.Skele.UnitTest",
+  "tags": {
+    "language": "C#"
+  }
+}
